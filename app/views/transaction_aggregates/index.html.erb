@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Transaction aggregates</h1>
+
+<div id="transaction_aggregates">
+  <% @transaction_aggregates.each do |transaction_aggregate| %>
+    <%= render transaction_aggregate %>
+    <p>
+      <%= link_to "Show this transaction aggregate", transaction_aggregate %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New transaction aggregate", new_transaction_aggregate_path %>

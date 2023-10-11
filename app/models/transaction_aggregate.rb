@@ -1,0 +1,2 @@
+class TransactionAggregate < ApplicationRecord
+end

@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: 
+  aggregate_id: 
+  action: MyString
+  status: MyString
+  amount: 9.99
+  customer_id: 
+  customer_external_id: MyString
+  merchant_id: 
+  merchant_external_id: MyString
+  provider: MyString
+  client_payment_method: 
+  provider_setting: 
+  client_id: 
+  event_type: MyString
+  event_data: 
+  event_timestamp: 2023-10-12 01:02:37
+
+two:
+  event_id: 
+  aggregate_id: 
+  action: MyString
+  status: MyString
+  amount: 9.99
+  customer_id: 
+  customer_external_id: MyString
+  merchant_id: 
+  merchant_external_id: MyString
+  provider: MyString
+  client_payment_method: 
+  provider_setting: 
+  client_id: 
+  event_type: MyString
+  event_data: 
+  event_timestamp: 2023-10-12 01:02:37

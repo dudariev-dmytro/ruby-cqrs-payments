@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Transaction projections</h1>
+
+<div id="transaction_projections">
+  <% @transaction_projections.each do |transaction_projection| %>
+    <%= render transaction_projection %>
+    <p>
+      <%= link_to "Show this transaction projection", transaction_projection %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New transaction projection", new_transaction_projection_path %>

@@ -1,0 +1,2 @@
+module TransactionProjectionsHelper
+end

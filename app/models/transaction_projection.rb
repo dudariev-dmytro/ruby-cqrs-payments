@@ -1,0 +1,2 @@
+class TransactionProjection < ApplicationRecord
+end

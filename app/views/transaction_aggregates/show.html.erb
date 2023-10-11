@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @transaction_aggregate %>
+
+<div>
+  <%= link_to "Edit this transaction aggregate", edit_transaction_aggregate_path(@transaction_aggregate) %> |
+  <%= link_to "Back to transaction aggregates", transaction_aggregates_path %>
+
+  <%= button_to "Destroy this transaction aggregate", @transaction_aggregate, method: :delete %>
+</div>

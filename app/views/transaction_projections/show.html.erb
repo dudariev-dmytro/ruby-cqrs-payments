@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @transaction_projection %>
+
+<div>
+  <%= link_to "Edit this transaction projection", edit_transaction_projection_path(@transaction_projection) %> |
+  <%= link_to "Back to transaction projections", transaction_projections_path %>
+
+  <%= button_to "Destroy this transaction projection", @transaction_projection, method: :delete %>
+</div>
