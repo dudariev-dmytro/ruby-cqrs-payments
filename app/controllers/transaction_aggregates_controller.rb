@@ -65,6 +65,6 @@ class TransactionAggregatesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def transaction_aggregate_params
-      params.require(:transaction_aggregate).permit(:aggregate_id, :action, :status, :amount, :customer_id, :customer_external_id, :merchant_id, :merchant_external_id, :provider, :client_payment_method, :provider_setting, :client_id, :event_type, :event_data)
+      params.require(:transaction_aggregate).permit(:aggregate_id, :action, :status, :amount, :customer_id, :customer_external_id, :merchant_id, :merchant_external_id, :provider, :client_payment_method, :provider_setting, :client_id, :event_type, :event_data, :transaction_id)
     end
 end

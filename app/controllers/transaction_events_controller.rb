@@ -65,6 +65,6 @@ class TransactionEventsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def transaction_event_params
-      params.require(:transaction_event).permit(:event_id, :aggregate_id, :action, :status, :amount, :customer_id, :customer_external_id, :merchant_id, :merchant_external_id, :provider, :client_payment_method, :provider_setting, :client_id, :event_type, :event_data, :event_timestamp)
+      params.require(:transaction_event).permit(:event_id, :aggregate_id, :action, :status, :amount, :customer_id, :customer_external_id, :merchant_id, :merchant_external_id, :provider, :client_payment_method, :provider_setting, :client_id, :event_type, :event_data, :event_timestamp, :transaction_id)
     end
 end
