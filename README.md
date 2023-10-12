@@ -1,6 +1,7 @@
 # README
 
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+![Diagram](https://github.com/dudariev-dmytro/ruby-cqrs-payments/blob/main/diagram.jpg?raw=true)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
